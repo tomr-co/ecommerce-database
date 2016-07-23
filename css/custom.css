@@ -1,0 +1,132 @@
+/* Custom Nav styles */
+
+
+
+/* Navigation */
+
+.navbar-brand {
+    padding: 0;
+    padding-top: 5px;
+}
+
+.navbar-header {
+    padding-left: 0px;
+}
+
+.navbar-nav.nav-justified > li{
+    float:none;
+}
+
+
+/* Container */
+
+.container {
+    width: 1366px;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+/* Add padding between rows */
+
+.top-buffer { 
+margin-top: 33px; 
+}
+
+.top-buffer-1 {
+    margin-top: 50px;
+}
+
+
+/* carosoul */
+
+#slide-1,
+#slide-2{
+    background-image: url(../img/the-goods-hero-slider.jpg);
+    background-size: cover;
+    height: 710px;
+}
+
+
+
+/* Product Typography */
+
+.product-title {
+    margin-top: 30px;
+}
+
+.product-color {
+    margin-top: 20px;
+}
+
+.product-price {
+    
+}
+
+.product-stock {
+    margin-top: 15px;
+}
+
+
+/* Footer Typography */
+
+footer li {
+    font-size: 11px;
+}
+
+#footer-icons ul{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#footer-credits {
+    font-size: 10px;
+}
+
+#footer-credits a{
+    color: inherit;
+}
+
+#footer-credits a:hover{
+    color: #FF0000;
+}
+
+
+/* Form Styling */
+
+input[type=email] {
+    border: 3px solid #000;
+    border-radius: 0px;
+}
+
+.btn-blk {
+    border-radius: 0px;
+    color: #fff;
+    background-color: #000;
+}
+
+    /* Form placeholder text */
+
+            ::-webkit-input-placeholder {
+           font-size: 10px;
+                padding-top: 3px;
+        }
+
+        :-moz-placeholder { /* Firefox 18- */
+           font-size: 10px;
+            padding-top: 3px;
+        }
+
+        ::-moz-placeholder {  /* Firefox 19+ */
+           font-size: 10px;
+            padding-top: 3px;
+        }
+
+        :-ms-input-placeholder {  
+           font-size: 10px;
+            padding-top: 3px;
+        }
